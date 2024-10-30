@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="C:\Users\licon\OneDrive\ドキュメント\Imamura\教育関連\ライコンWebアプリ.css">
+
+    </head>
+
+    <body>
+
+        <div class="header">
+            <ul>
+                <div class="logo">
+                    <img src="C:\Users\licon\OneDrive\ドキュメント\Imamura\教育関連\png\licon_logo.png" alt="home">
+                    <div class="home"> 
+                        <a href="">ホーム</a>
+                    </div>
+                </div>
+                <li><a href="">従業員管理</a></li>
+                <li><a href="">従業員登録</a></li>
+                <li><a href="">BMI診断</a></li>
+            </ul>
+        </div>
+
+        <div class="sub-main">
+
+                <h3>BMI診断フォーム</h3>
+
+                <div class="height">
+                    <label for="height">身長(cm)</label>
+                    <input type="number" id="height" name="height" min="0" max="200" step="1" placeholder="例:170">
+                    <span class="remark">このフィールドを入力してください。</span>
+                </div>
+
+
+                <div class="weight">
+                    <label for="weight">体重(㎏)</label>
+                    <input type="number" id="weight" name="weight" step="1" placeholder="例:65">
+                    <span class="remark">このフィールドを入力してください。</span>
+                </div>
+
+                <div class="btn-col">
+                    <button type="button" id="btn_id">BMIを計算</button>
+                </div>
+
+                <div class="result">
+                    <p>結果:</p>
+                    <p id="bmi"></p>
+                </div>
+
+                <script src="C:\Users\licon\OneDrive\ドキュメント\Imamura\教育関連\BMI計算.js"></script>
+
+
+        </div>        
+
+    </body>
+
+</html>
